@@ -13,9 +13,8 @@ text-align: end;
 align-items: center;
 padding: 15px 50px;
 gap: 50px;
-
 margin: 0 auto;
-width: 1920px;
+width: auto;
 height: 49px;
 font-family: 'Thabit';
 font-style: normal;
