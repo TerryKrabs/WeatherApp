@@ -1,3 +1,138 @@
 body{
     background-image: url(../assets/1540016\ 1.png);
 }
+
+.endMe{
+text-align: end;
+
+}
+
+.footer{
+
+
+align-items: center;
+padding: 15px 50px;
+gap: 50px;
+
+margin: 0 auto;
+width: 1920px;
+height: 49px;
+font-family: 'Thabit';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+text-align: end;
+}
+
+.weatherBox{
+width: 1700px;
+height: 700px;
+}
+
+
+.leftBox{
+border: 2px;
+border-color: black;
+height: 700px;
+border-style: solid;
+
+}
+
+.topBox{
+    width: 850px;
+border: 2px;
+border-color: black;
+    height: 350px;
+    border-style: solid;
+    display: flex;
+}
+
+.bottomBox{
+    width: 850px;
+height: 350px;
+border: 2px;
+border-color: black;
+border-style: solid;
+display: flex;
+
+
+}
+
+.starHeight{
+height: 36px;
+width: 36px;
+}
+
+.currentTemp{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+/* Auto layout */
+/* display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 15px 50px;
+gap: 50px;
+
+margin: 0 auto;
+width: 1440px;
+height: 49px;
+
+background: #384751;
+
+/* Inside auto layout */
+/* flex: none;
+order: 4;
+flex-grow: 0;
+z-index: 4; */ 
+
+
+/* © Copyright Poncini Productions Inc. 2023 */
+
+/* width: 364px;
+height: 19px;
+
+font-family: 'Thabit';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF; */
+
+
+/* Inside auto layout */
+/* flex: none;
+order: 0;
+flex-grow: 0; */

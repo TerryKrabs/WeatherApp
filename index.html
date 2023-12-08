@@ -14,36 +14,53 @@
           <h5 class="text-body-emphasis h4">Collapsed content</h5>
           <span class="text-body-secondary">Toggleable via the navbar brand.</span>
         </div>
-      </div>
+    </div>
       <nav class="navbar navbar-dark" style="background-color: #384751;">
-        <div class="container-fluid d-flex justify-content-end">
+        <div class="container-fluid d-flex">
+            <img src="./assets/CloudSun.png" alt="CloudSun"> <p class="endMe">Joe's Weather Forecast</p>
+
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
             <img src="./assets/CaretUp.png" alt="ChevronUp">
             
           </button>
         </div>
       </nav>
-      
+      <!-- search Bar -->
+      <div class="input-group flex-nowrap">
+        <span class="input-group-text" id="addon-wrapping">@</span>
+        <input id="searchBar" type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+        <button id="searchButton">
+            search
+        </button>
+      </div>
 
-
-      <div class="contianer">
+      <div class="container-fluid weatherBox">
         <div class="row">
-            <div class="col-6">
-               <img src="./assets/CloudSun.png" alt="">
+            <div class="col-6 d-flex justify-content-end leftBox px-0 " style="background-color: whitesmoke;">
+         <h1>Manteca,Ca</h1>
+         <img src="./assets/EmptyStar.png" alt="" class="starHeight">
             </div>
-            <div class="col-6"> <div class="row">
-                <div class="col-12">twelve col</div>
-            </div><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla similique quidem eveniet mollitia recusandae, repellendus eius velit at, ullam eligendi vitae laudantium? Veritatis rerum sint optio culpa omnis obcaecati temporibus Lorem ipsum dolor sit amet consectetur adipisicing elit. In totam temporibus dignissimos tempore quod? Debitis qui, harum optio laudantium nemo possimus perferendis dolor quisquam natus vel earum quae aut quos.</p></div>
+            <div class="col-6 " style="background-color: whitesmoke;"> <div class="row">
+                <div class="col-12 topBox ">
+                    <h1 id="CurrentTemp" class="currentTemp"> Insert Here</h1>
+                </div>
+            </div> 
+            <div class="row">
+                <div class="col-12 bottomBox">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus voluptate perferendis eum tempora? Soluta hic, qui explicabo animi, quam quos officia fugit corrupti nesciunt ad corporis eaque a, eum numquam!</p>
+            </div>  
+        </div>
+          <!-- <div class="bottomBox">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus voluptate perferendis eum tempora? Soluta hic, qui explicabo animi, quam quos officia fugit corrupti nesciunt ad corporis eaque a, eum numquam!</p>
+          </div> -->
+        </div>
         </div>
       </div>
 
 
-<br>
-<br>
-<br>
-<br>
-    
-    <h1 id="CurrentTemp" class="d-flex justify-content-center"> Insert Here</h1>
+
+    <!-- api's -->
+    <!-- <h1 id="CurrentTemp" class="d-flex justify-content-center"> Insert Here</h1> -->
 
     <h2 id="HighTemp" class="d-flex justify-content-center">High Temp</h2>
 
@@ -54,6 +71,25 @@
     <p id="Date" class="d-flex justify-content-center">Date</p>
 
     <p id="Time" class="d-flex justify-content-center">Time</p>
+
+
+
+
+
+      <!-- footer -->
+      <div class="footer mt-1" style="background-color: #384751;">
+        <p style="color: whitesmoke;">© Copyright Poncini Productions Inc. 2023</p>
+      </div>
+
+
+
+
+
+
+
+
+
+
 
     <script src="./scripts/app.js"type="module"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
