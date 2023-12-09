@@ -4,11 +4,9 @@ body{
 
 .endMe{
 text-align: end;
-
 }
 
 .footer{
-
 
 align-items: center;
 padding: 15px 50px;
@@ -28,13 +26,11 @@ width: 1700px;
 height: 700px;
 }
 
-
 .leftBox{
 border: 2px;
 border-color: black;
 height: 700px;
 border-style: solid;
-
 }
 
 .topBox{
@@ -53,8 +49,6 @@ border: 2px;
 border-color: black;
 border-style: solid;
 display: flex;
-
-
 }
 
 .starHeight{
@@ -66,9 +60,20 @@ width: 36px;
     text-align: center;
 }
 
+.cityState{
+    text-align: center;
+}
 
+.wordSpace{
+    word-spacing: 20px;
+    padding-top: 40px;
+}
 
-
+.sunHeight{
+    height: 130px;
+width: 130px;
+    justify-content: center;
+}
 
 
 
